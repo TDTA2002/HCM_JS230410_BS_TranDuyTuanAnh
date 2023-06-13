@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.head {
+  background-color: orange;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+}
+
+body {
+  background-color: rgb(227, 225, 225);
+}
+
+.note {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  box-shadow: slategray 25px;
+  width: 300px;
+  height: 60px;
+  outline: none;
+}
+
+.fa-solid {
+  background-color: orange;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  color: aliceblue;
+
+}
+
+.takenote {
+  background-color: white;
+}
+
+.title {
+  padding: 10px;
+}
+
+.icon {
+  position: relative;
+  top: 40px;
+  right: 20px;
+  background-color: hidden;
+  height: 5px;
+  background-color: white;
+  border: none;
+}
+
+.rendernote {
+  padding: 20px;
+  display: flex;
+  gap: 50px;
+}
+
+.rendernote-1 {
+  display: flex;
+  background-color: white;
+  height: 80px;
+  width: 300px;
+  padding: 8px;
+}
+
+.fa-sharp {
+  display: flex;
+  position: relative;
+}
+
+.buttondelete {
+  background-color: white;
+  border: none;
+  position: relative;
+  height: 20px;
+  top: 60px;
+  left: 200px;
+}
